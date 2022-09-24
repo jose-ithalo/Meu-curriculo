@@ -1,2 +1,2 @@
 # Meu-curriculo
-Um currículo contendo minhas informais profissionais realizado utilizando HTML, CSS e JavaScript
+Um currículo contendo minhas informais profissionais desenvolvido utilizando tecnologias como HTML, CSS e JavaScript.
