@@ -1,12 +1,6 @@
-h1 {
+/* .aboutMe-content {} */
+
+.aboutMe-content h1 {
     color: orangered;
     font-size: 36px;
-}
-
-.quadro {
-    background-color: violet;
-    height: 50rem;
-    width: 80rem;
-    display: flex;
-    justify-content: flex-end;
 }
