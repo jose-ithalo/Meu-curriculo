@@ -8,7 +8,7 @@
 .aboutMe-content h1 {
     color: rgb(223, 209, 209);
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     margin-top: 2rem;
 }
 
@@ -17,7 +17,13 @@
     border-radius: 12px;
     box-shadow: 10px 10px 15px 2px rgb(32, 3, 3);
     font-size: 2.5rem;
-    text-align: center;
-    height: 47rem;
+    padding: 2rem 5rem;
+    min-height: 50rem;
     width: 70rem;
+}
+
+.card-info p {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2.8rem;
+    margin-bottom: 1rem;
 }

@@ -10,18 +10,19 @@ html {
 
 .container {
     background-color: rgb(2, 2, 32);
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
 .left-side {
     background-color: rgb(27, 26, 26);
-    color: aqua;
+    color: rgb(223, 209, 209);
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 5rem;
     letter-spacing: 0.2rem;
+    /* position: sticky; */
     width: 35%;
 }
 
