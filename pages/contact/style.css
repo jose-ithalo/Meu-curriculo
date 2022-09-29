@@ -1,0 +1,30 @@
+.contact-content {
+    width: calc(100vw - 35%);
+}
+
+.contact-content h1 {
+    color: rgb(223, 209, 209);
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact-card {
+    background-color: rgb(223, 209, 209);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem 4rem;
+    height: 50rem;
+    width: 70rem;
+}
+
+.contact-card h2 {
+    font-size: 2rem;
+    margin-bottom: 2.8rem;
+}
+
+.contact-field {
+    font-size: 1.5rem;
+}
