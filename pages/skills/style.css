@@ -1,0 +1,11 @@
+.skills-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100vw - 35%);
+}
+
+.skills-field {
+    display: inline-flex;
+}

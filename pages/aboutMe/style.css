@@ -1,8 +1,8 @@
 .aboutMe-content {
-    width: calc(100vw - 35%);
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: calc(100vw - 35%);
 }
 
 .aboutMe-content h1 {
