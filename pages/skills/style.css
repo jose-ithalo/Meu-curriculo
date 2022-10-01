@@ -2,10 +2,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     width: calc(100vw - 35%);
 }
 
+.skills-content p {
+    color: rgb(223, 209, 209);
+    font-size: 2.2rem;
+}
+
 .skills-field {
-    display: inline-flex;
+    display: flex;
+    margin-top: 7rem;
 }
