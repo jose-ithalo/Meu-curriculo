@@ -10,7 +10,39 @@
     font-size: 2.2rem;
 }
 
+.skills-content__stacks {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-top: 8rem;
+}
+
+.skills-content__stacks :first-child {
+    margin-right: 10rem;
+}
+
+.selected-stack {
+    color: white;
+    text-decoration: underline;
+}
+
+.non-selected-stack:hover {
+    cursor: pointer;
+    color: rgb(187, 179, 179);
+}
+
 .skills-field {
     display: flex;
-    margin-top: 7rem;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 9rem;
+}
+
+.skills-field img {
+    cursor: pointer;
+    width: 3.5rem;
+}
+
+.skills-field img:active {
+    transform: scale(1.2);
 }

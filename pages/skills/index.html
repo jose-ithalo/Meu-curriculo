@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo-José</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,6 +12,8 @@
         rel="stylesheet">
     <link href="../global.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Currículo-José</title>
 </head>
 
 <body>
@@ -37,9 +38,14 @@
             <h1>Minhas skills</h1>
             <p>Nesta parte são apresentadas as tecnologias nas quais eu tenho domínio</p>
             <p>tanto no Back-end quanto no Front-end</p>
+            <div class="skills-content__stacks">
+                <span class="back-end selected-stack">Back-end</span>
+                <span class="front-end non-selected-stack">Front-end</span>
+            </div>
             <div class="skills-field">
-                <img src="../../assets/icon-prev.svg" alt="ícone-voltar">
-                <img src="../../assets/icon-next.svg" alt="ícone-próximo">
+                <img class="previous-arrow" src="../../assets/icon-prev.svg" alt="ícone-voltar">
+                <h2 style="color: white; font-size: 25px;">Node.Js</h2>
+                <img class="next-arrow" src="../../assets/icon-next.svg" alt="ícone-próximo">
             </div>
         </div>
     </div>
