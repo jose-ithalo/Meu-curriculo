@@ -32,8 +32,9 @@ frontEnd.addEventListener('click', function () {
 
 next.addEventListener('click', function () {
     count = count + 1;
-    console.log(backList.length);
-    console.log(count);
+    if (count >= backList.length || count >= frontEnd.length) {
+        count = backList.length - 1;
+    }
     if (listName === 'back') {
         stackList.textContent = backList[count];
     } else {
@@ -43,6 +44,9 @@ next.addEventListener('click', function () {
 
 previous.addEventListener('click', function () {
     count -= 1;
+    if (count < 0) {
+        count = 0;
+    }
     if (listName === 'back') {
         stackList.textContent = backList[count];
     } else {
