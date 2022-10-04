@@ -46,3 +46,17 @@
 .skills-field img:active {
     transform: scale(1.2);
 }
+
+.modal-badges {
+    background-color: #ffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14rem;
+    width: 17rem;
+}
+
+.modal-badges img {
+    width: 9rem;
+}

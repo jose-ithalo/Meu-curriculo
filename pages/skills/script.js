@@ -8,7 +8,7 @@ const previous = document.querySelector('.previous-arrow');
 let count = 0;
 let listName = 'back';
 
-stackList.textContent = backList[0];
+// stackList.textContent = backList[0];
 
 backEnd.addEventListener('click', function () {
     backEnd.classList.remove('non-selected-stack');
