@@ -1,14 +1,30 @@
 const backEnd = document.querySelector('.back-end');
 const frontEnd = document.querySelector('.front-end');
-const stackList = document.querySelector('.stack-list');
-const backList = ['Node.Js', 'Express', 'SQL', 'Python'];
-const frontList = ['HTML', 'CSS', 'JavaScript', 'React.js'];
+const stackImage = document.querySelector('.stack-img');
+const stackName = document.querySelector('.modal-badges h2')
+
+const backList = [
+    { image: '../../assets/stacks/nodejs.png', name: 'Node.Js' },
+    { image: '../../assets/stacks/express.png', name: 'Express' },
+    { image: '../../assets/stacks/sql.png', name: 'SQL' },
+    { image: '../../assets/stacks/python.png', name: 'Python' }
+];
+
+const frontList = [
+    { image: '../../assets/stacks/html', name: 'HTML' },
+    { image: '../../assets/stacks/css3.svg', name: 'CSS3' },
+    { image: '../../assets/stacks/javaScript.svg', name: 'JavaScript' },
+    { image: '../../assets/stacks/react.png', name: 'React.js' }
+];
+
 const next = document.querySelector('.next-arrow');
 const previous = document.querySelector('.previous-arrow');
 let count = 0;
 let listName = 'back';
 
-// stackList.textContent = backList[0];
+stackImage.src = backList[3].image;
+stackName.textContent = backList[0].name;
+
 
 backEnd.addEventListener('click', function () {
     backEnd.classList.remove('non-selected-stack');

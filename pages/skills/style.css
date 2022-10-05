@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: 3rem;
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 
 .skills-field img {
@@ -52,9 +52,12 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 14rem;
-    width: 17rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    height: 16rem;
+    width: 18rem;
 }
 
 .modal-badges img {
