@@ -11,7 +11,7 @@ const backList = [
 ];
 
 const frontList = [
-    { image: '../../assets/stacks/html', name: 'HTML' },
+    { image: '../../assets/stacks/html.svg', name: 'HTML' },
     { image: '../../assets/stacks/css3.svg', name: 'CSS3' },
     { image: '../../assets/stacks/javaScript.svg', name: 'JavaScript' },
     { image: '../../assets/stacks/react.png', name: 'React.js' }
@@ -22,7 +22,7 @@ const previous = document.querySelector('.previous-arrow');
 let count = 0;
 let listName = 'back';
 
-stackImage.src = backList[3].image;
+stackImage.src = backList[0].image;
 stackName.textContent = backList[0].name;
 
 
@@ -31,7 +31,8 @@ backEnd.addEventListener('click', function () {
     backEnd.classList.add('selected-stack');
     frontEnd.classList.remove('selected-stack');
     frontEnd.classList.add('non-selected-stack');
-    stackList.textContent = backList[0];
+    stackImage.src = backList[0].image;
+    stackName.textContent = backList[0].name;
     count = 0;
     listName = 'back';
 });
@@ -41,7 +42,8 @@ frontEnd.addEventListener('click', function () {
     frontEnd.classList.add('selected-stack');
     backEnd.classList.remove('selected-stack');
     backEnd.classList.add('non-selected-stack');
-    stackList.textContent = frontList[0];
+    stackImage.src = frontList[0].image;
+    stackName.textContent = frontList[0].name;
     count = 0;
     listName = 'front';
 });
@@ -52,9 +54,11 @@ next.addEventListener('click', function () {
         count = backList.length - 1;
     }
     if (listName === 'back') {
-        stackList.textContent = backList[count];
+        stackImage.src = backList[count].image;
+        stackName.textContent = backList[count].name;
     } else {
-        stackList.textContent = frontList[count];
+        stackImage.src = frontList[count].image;
+        stackName.textContent = frontList[count].name;
     }
 });
 
@@ -64,8 +68,10 @@ previous.addEventListener('click', function () {
         count = 0;
     }
     if (listName === 'back') {
-        stackList.textContent = backList[count];
+        stackImage.src = backList[count].image;
+        stackName.textContent = backList[count].name;
     } else {
-        stackList.textContent = frontList[count];
+        stackImage.src = frontList[count].image;
+        stackName.textContent = frontList[count].name;
     }
 });
