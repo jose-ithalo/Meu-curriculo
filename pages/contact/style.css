@@ -1,4 +1,8 @@
 .contact-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: calc(100vw - 35%);
 }
 
@@ -7,13 +11,10 @@
     font-size: 4rem;
     margin-bottom: 4rem;
     margin-top: 2rem;
-    text-align: center;
 }
 
 .contact-card {
     background-color: rgb(223, 209, 209);
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
     font-family: 'Lato', sans-serif;
     padding: 1rem 4rem;
     height: 50rem;
