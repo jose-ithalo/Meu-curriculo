@@ -47,6 +47,17 @@ html {
     width: 25rem;
 }
 
+.avatar-img {
+    background-image: url("../assets/avatar.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid purple;
+    border-radius: 50%;
+    height: 22rem;
+    width: 25rem;
+}
+
 .my-info {
     display: flex;
     align-items: center;
