@@ -8,6 +8,17 @@ html {
     font-size: 62.5%;
 }
 
+.avatar-img {
+    background-image: url("assets/avatar.jpeg");
+    background-position: center bottom -30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid purple;
+    border-radius: 50%;
+    height: 22rem;
+    width: 25rem;
+}
+
 .aboutMe-content h1,
 .skills-content h1 {
     color: rgb(223, 209, 209);
@@ -47,17 +58,6 @@ html {
     width: 25rem;
 }
 
-.avatar-img {
-    background-image: url("assets/avatar.jpeg");
-    background-position: center bottom -30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 22rem;
-    width: 25rem;
-}
-
 .my-info {
     display: flex;
     align-items: center;
@@ -65,6 +65,10 @@ html {
     gap: 2rem;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+.my-info h4 {
+    display: none;
 }
 
 .non-style {

@@ -1,3 +1,23 @@
-.card-info {
-    width: 30rem;
+@media (max-width: 975px) {
+    .my-info h2 {
+        display: none;
+    }
+
+    .my-info h4 {
+        display: block;
+    }
+
+    .options {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1115px) {
+    .card-info {
+        width: 80%;
+    }
+
+    .my-info {
+        font-size: 1.2rem;
+    }
 }
