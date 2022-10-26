@@ -58,6 +58,15 @@ html {
     width: 25rem;
 }
 
+.menu-icon {
+    width: 4.5rem;
+}
+
+.mobile-menu {
+    display: none;
+    width: 20%;
+}
+
 .my-info {
     display: flex;
     align-items: center;

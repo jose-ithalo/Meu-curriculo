@@ -1,3 +1,26 @@
+@media (max-width: 715px) {
+    /* .container {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+    } */
+
+    .left-side {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 790px) {
+    .avatar-img {
+        height: 17rem;
+        width: 20rem;
+    }
+}
+
 @media (max-width: 975px) {
     .my-info h2 {
         display: none;
