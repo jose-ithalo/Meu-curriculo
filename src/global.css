@@ -59,7 +59,15 @@ html {
 }
 
 .menu-icon {
+    position: fixed;
+    top: 2.5rem;
+    left: 4rem;
     width: 4.5rem;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .mobile-menu {
