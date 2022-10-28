@@ -58,6 +58,19 @@ html {
     width: 25rem;
 }
 
+.menu-close {
+    display: none;
+    position: fixed;
+    top: 2.1rem;
+    left: 4rem;
+    width: 4.5rem;
+}
+
+.menu-close:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .menu-icon {
     position: fixed;
     top: 2.5rem;
