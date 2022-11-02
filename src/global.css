@@ -149,6 +149,10 @@ html {
     text-decoration: none;
 }
 
+.tiny-screen {
+    display: none;
+}
+
 .title-menu {
     text-align: center;
     font-size: 2rem;

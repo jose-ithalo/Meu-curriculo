@@ -1,6 +1,10 @@
-@media (max-width: 522px) {
+@media (max-width: 450px) {
     .container {
         display: none;
+    }
+
+    .tiny-screen {
+        display: flex;
     }
 }
 
@@ -38,7 +42,7 @@
 
 @media (max-width: 1115px) {
     .card-info {
-        width: 80%;
+        width: 90%;
     }
 
     .my-info {
