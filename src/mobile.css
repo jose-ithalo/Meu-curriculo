@@ -1,3 +1,9 @@
+@media (max-width: 522px) {
+    .container {
+        display: none;
+    }
+}
+
 @media (max-width: 715px) {
 
     .left-side {
