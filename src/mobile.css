@@ -21,6 +21,10 @@
     .mobile-menu {
         display: block;
     }
+
+    .skills-content p {
+        padding: 0rem;
+    }
 }
 
 @media (max-width: 790px) {
@@ -41,6 +45,10 @@
 
     .options {
         font-size: 1.2rem;
+    }
+
+    .skills-content {
+        text-align: center;
     }
 }
 
