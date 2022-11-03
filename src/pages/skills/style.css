@@ -8,6 +8,8 @@
 .skills-content p {
     color: rgb(223, 209, 209);
     font-size: 2.2rem;
+    padding: 0 10rem;
+    text-align: center;
 }
 
 .skills-content__stacks {
