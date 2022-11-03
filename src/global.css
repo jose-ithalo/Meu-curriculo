@@ -150,7 +150,19 @@ html {
 }
 
 .tiny-screen {
+    color: rgb(4, 4, 66);
+    height: 100vh;
     display: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+.tiny-screen h4 {
+    text-align: center;
+}
+
+.tiny-screen img {
+    width: 30rem;
 }
 
 .title-menu {
