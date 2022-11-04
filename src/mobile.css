@@ -12,7 +12,17 @@
     }
 }
 
+@media (max-width: 490px) {
+    .contact-field h3 {
+        display: none;
+    }
+}
+
 @media (max-width: 715px) {
+
+    .contact-content {
+        width: 100%;
+    }
 
     .left-side {
         display: none;
@@ -31,6 +41,10 @@
     .avatar-img {
         height: 17rem;
         width: 20rem;
+    }
+
+    .contact-field h3 {
+        width: 10rem;
     }
 }
 
@@ -63,7 +77,3 @@
         font-size: 1.2rem;
     }
 }
-
-/* .contact-field h3 {
-    width: 18rem;
-} */
