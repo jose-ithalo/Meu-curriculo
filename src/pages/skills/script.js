@@ -11,9 +11,9 @@ const backList = [
 ];
 
 const frontList = [
-    { image: '../../assets/stacks/html.svg', name: 'HTML' },
-    { image: '../../assets/stacks/css3.svg', name: 'CSS3' },
-    { image: '../../assets/stacks/javaScript.svg', name: 'JavaScript' },
+    { image: '../../assets/stacks/html5.png', name: 'HTML' },
+    { image: '../../assets/stacks/css3.png', name: 'CSS3' },
+    { image: '../../assets/stacks/javaScript.png', name: 'JavaScript' },
     { image: '../../assets/stacks/react.png', name: 'React.js' }
 ];
 
