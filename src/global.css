@@ -9,7 +9,7 @@ html {
 }
 
 .avatar-img {
-    background-image: url("assets/avatar.jpeg");
+    background-image: url("assets/introduction/avatar.jpeg");
     background-position: center bottom -30px;
     background-repeat: no-repeat;
     background-size: cover;
