@@ -2,3 +2,30 @@
     /* background-color: rgba(26, 26, 26, 1); */
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
 }
+
+header {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 50rem; */
+}
+
+header img {
+    width: 15rem;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+
+.option-header {
+    display: flex;
+    gap: 20rem;
+    position: relative;
+    top: -30px;
+}
+
+header li {
+    color: aliceblue;
+}
