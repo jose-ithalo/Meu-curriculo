@@ -1,6 +1,6 @@
 .container {
-    /* background-color: rgba(26, 26, 26, 1); */
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
+    height: 100%;
 }
 
 header {
@@ -9,7 +9,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 50rem; */
 }
 
 header img {
@@ -27,5 +26,12 @@ header img {
 }
 
 header li {
-    color: aliceblue;
+    color: rgba(152, 89, 255, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}
+
+header li:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
