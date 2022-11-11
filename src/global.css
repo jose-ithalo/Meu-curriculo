@@ -34,7 +34,7 @@ html {
 }
 
 .left-side {
-    background-color: hsla(0, 0%, 10%, 1);
+    background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
     display: flex;
     justify-content: center;
     width: 35%;
