@@ -51,6 +51,15 @@ html {
     position: fixed;
 }
 
+.link-home {
+    color: wheat;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 65px;
+    bottom: 55px;
+}
+
 .menu-close {
     display: none;
     position: absolute;
