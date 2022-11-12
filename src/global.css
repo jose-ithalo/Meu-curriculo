@@ -27,6 +27,10 @@ html {
     margin-top: 2rem;
 }
 
+.back-icon {
+    width: 5rem;
+}
+
 .container {
     background-color: rgb(2, 2, 32);
     min-height: 100vh;
@@ -49,13 +53,6 @@ html {
     letter-spacing: 0.2rem;
     margin-top: 6rem;
     position: fixed;
-}
-
-.left-side img {
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 22rem;
-    width: 25rem;
 }
 
 .menu-close {
