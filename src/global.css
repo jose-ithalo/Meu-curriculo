@@ -13,7 +13,7 @@ html {
     background-position: center bottom -30px;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid purple;
+    border: 2px solid rgb(2, 2, 32);
     border-radius: 50%;
     height: 22rem;
     width: 25rem;
@@ -25,10 +25,6 @@ html {
     font-size: 4rem;
     margin-bottom: 4rem;
     margin-top: 2rem;
-}
-
-.return-icon {
-    width: 5rem;
 }
 
 .container {
@@ -144,6 +140,18 @@ html {
 .options-mobile a {
     color: wheat;
     text-decoration: none;
+}
+
+.return-icon {
+    cursor: pointer;
+    position: fixed;
+    left: 22px;
+    top: 20px;
+    width: 4rem;
+}
+
+.return-icon:active {
+    transform: scale(1.2);
 }
 
 .tiny-screen {
