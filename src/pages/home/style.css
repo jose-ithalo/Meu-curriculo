@@ -1,6 +1,6 @@
-.container {
+.container-home {
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
-    height: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -9,6 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 header img {
@@ -16,6 +17,16 @@ header img {
     position: relative;
     top: -30px;
     left: 20px;
+}
+
+.img-area {
+    outline: 12px solid gray;
+    border: 5px dashed white;
+    padding: 10px;
+    /* border-image-source: linear-gradient(180deg, #303030 0%, rgba(48, 48, 48, 0) 100%); */
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 
 .option-header {
@@ -35,4 +46,10 @@ header img {
 .option-header a:hover {
     color: rgba(152, 89, 255, 1);
     cursor: pointer;
+}
+
+main {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
 }
