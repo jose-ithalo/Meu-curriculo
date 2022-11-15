@@ -4,10 +4,13 @@
 }
 
 .avatar-cartoon {
+    background-image: url("../../assets/imgHome/programmer.png");
+    background-position: center;
+    background-size: auto;
     outline: 4px solid rgba(36, 36, 36, 1);
     border-radius: 50%;
-    height: 22rem;
-    width: 22rem;
+    height: 24rem;
+    width: 24rem;
 }
 
 header {
@@ -27,7 +30,7 @@ header img {
 }
 
 .img-area {
-    border: 2px dashed rgba(112, 92, 92, 0.2);
+    border: 2px dotted rgba(152, 89, 255, 0.4);
     border-radius: 50%;
     height: 30rem;
     width: 30rem;
