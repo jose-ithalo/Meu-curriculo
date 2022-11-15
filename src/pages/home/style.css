@@ -3,13 +3,20 @@
     min-height: 100vh;
 }
 
+.avatar-cartoon {
+    outline: 4px solid rgba(36, 36, 36, 1);
+    border-radius: 50%;
+    height: 22rem;
+    width: 22rem;
+}
+
 header {
     height: 30%;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 header img {
@@ -20,13 +27,13 @@ header img {
 }
 
 .img-area {
-    outline: 12px solid gray;
-    border: 5px dashed white;
-    padding: 10px;
-    /* border-image-source: linear-gradient(180deg, #303030 0%, rgba(48, 48, 48, 0) 100%); */
+    border: 2px dashed rgba(112, 92, 92, 0.2);
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .option-header {
@@ -49,7 +56,6 @@ header img {
 }
 
 main {
-    /* width: 100%; */
     display: flex;
     justify-content: space-around;
 }
