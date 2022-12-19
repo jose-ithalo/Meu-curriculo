@@ -51,6 +51,15 @@ html {
     position: fixed;
 }
 
+.link-back {
+    color: rgb(223, 209, 209);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: -6.9rem;
+    right: 2rem;
+}
+
 .link-home {
     color: wheat;
     font-family: 'Lato', sans-serif;
