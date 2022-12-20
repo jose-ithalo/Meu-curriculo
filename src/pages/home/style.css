@@ -1,6 +1,7 @@
 .container-home {
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .avatar-cartoon {
@@ -13,6 +14,45 @@
     width: 24rem;
 }
 
+.test2 {
+    color: #EBE7E1;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 70rem;
+    width: 70rem;
+}
+
+.ellipse {
+    position: absolute;
+    right: 0.60rem;
+}
+
+.final-home {
+    border-top: 1px solid rgb(95, 94, 94);
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    width: 100vw;
+}
+
+.final-home-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.20rem;
+    width: 50%;
+}
+
+.final-home-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
 .first-info {
     display: flex;
     gap: 2rem;
@@ -20,25 +60,6 @@
     font-size: 2rem;
     margin-bottom: 0.50rem;
 }
-
-.final-home {
-    border-top: 1px solid rgb(95, 94, 94);
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-    padding-top: 3rem;
-}
-
-.final-home-left {
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.20rem;
-
-}
-
-/* .final-home-right {} */
 
 header {
     height: 30%;
@@ -66,11 +87,6 @@ header img {
     justify-content: center;
 }
 
-.ellipse {
-    position: absolute;
-    right: 0.60rem;
-}
-
 .image-bar {
     display: flex;
     align-items: center;
@@ -79,7 +95,7 @@ header img {
 }
 
 .image-bar :first-child {
-    width: 22.20rem;
+    width: 25rem;
 }
 
 .info-dev {
@@ -94,6 +110,21 @@ header img {
     font-size: 1.50rem;
     letter-spacing: 0.15rem;
     opacity: 0.8;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    gap: 0.70rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    width: 50rem;
+}
+
+.informations img {
+    width: 2rem;
 }
 
 .option-header {
