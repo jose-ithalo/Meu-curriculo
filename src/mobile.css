@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .container {
         display: none;
     }
@@ -13,12 +13,57 @@
 }
 
 @media (max-width: 490px) {
+
+    .avatar-cartoon,
+    .img-area {
+        display: none;
+    }
+
+    .aboutMe-content {
+        width: 100%;
+    }
+
     .contact-field h3 {
         display: none;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+    .skills-content__stacks :first-child {
+        margin-right: 5rem;
+    }
+}
+
+@media (max-width:515px) {
+    .container-home header {
+        flex-direction: column;
+    }
+
+    header img {
+        left: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-home header {
+        width: 95%;
     }
 }
 
 @media (max-width: 715px) {
+
+    .avatar-cartoon {
+        background-size: contain;
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .img-area {
+        height: 22rem;
+        width: 22rem;
+    }
 
     .contact-content {
         width: 100%;
@@ -35,6 +80,10 @@
     .skills-content p {
         padding: 0rem;
     }
+
+    .title-name {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 790px) {
@@ -45,6 +94,10 @@
 
     .contact-field h3 {
         width: 10rem;
+    }
+
+    .option-header {
+        gap: 5rem;
     }
 }
 
