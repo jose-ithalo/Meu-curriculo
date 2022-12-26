@@ -41,8 +41,14 @@
     width: 18rem;
 }
 
-.contact-field img {
-    width: 2.4rem;
+.contact-content i {
+    font-size: 2.4rem;
+    color: rgb(36, 41, 35);
+}
+
+.contact-field i:hover {
+    transform: scale(1.2);
+    transition: 0.3s all;
 }
 
 .link-area a {
