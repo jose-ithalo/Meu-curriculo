@@ -2,4 +2,19 @@
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
     color: rgba(251, 251, 251, 1);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-projects h1 {
+    background-color: blue;
+    border: 2px solid #ffff;
+    border-radius: 12px;
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
 }
