@@ -9,14 +9,13 @@ html {
 }
 
 .avatar-img {
-    background-image: url("../assets/introduction/avatar.jpeg");
-    background-position: center bottom -30px;
-    background-repeat: no-repeat;
+    background-image: url("../assets/imgHome/programmer.png");
+    background-position: center;
     background-size: cover;
-    border: 2px solid rgb(2, 2, 32);
+    border: 2px dotted rgba(152, 89, 255, 0.4);
     border-radius: 50%;
     height: 22rem;
-    width: 25rem;
+    width: 23rem;
 }
 
 .aboutMe-content h1,
