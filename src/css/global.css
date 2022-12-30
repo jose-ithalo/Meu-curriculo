@@ -29,6 +29,7 @@ html {
 
 .container {
     background-color: rgb(2, 2, 32);
+    font-family: 'Lato', sans-serif;
     min-height: 100vh;
     display: flex;
 }
@@ -192,7 +193,3 @@ html {
     text-align: center;
     font-size: 2rem;
 }
-
-/* 
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Lato', sans-serif; */

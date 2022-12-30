@@ -40,6 +40,7 @@
     border-top: 1px solid rgb(95, 94, 94);
     color: #FFFFFF;
     display: inline-flex;
+    font-family: 'Lato', sans-serif;
     margin-top: 2rem;
     padding-top: 3rem;
     width: 100vw;
@@ -49,7 +50,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
     font-size: 2rem;
     letter-spacing: 0.20rem;
     width: 50%;
@@ -116,9 +116,8 @@ header img {
     display: flex;
     align-items: center;
     gap: 0.70rem;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.8rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     margin-bottom: 2rem;
     width: 50rem;
 }
