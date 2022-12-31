@@ -2,19 +2,48 @@
     background: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%);
     color: rgba(251, 251, 251, 1);
     min-height: 100vh;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+    padding: 0rem 17rem;
 }
 
 .container-projects h1 {
-    background-color: blue;
-    border: 2px solid #ffff;
+    background-color: rgb(42, 42, 112);
+    border: 2px solid wheat;
     border-radius: 12px;
     padding: 12px;
-    font-family: 'Lato', sans-serif;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
+    margin: 4rem 0rem;
+}
+
+.presentation {
+    background-color: rgb(42, 42, 112);
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.projects-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.project-body {
+    background-color: bisque;
+    height: 35rem;
+    width: 45rem;
+}
+
+.projects-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
