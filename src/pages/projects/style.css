@@ -22,23 +22,31 @@
 }
 
 .presentation {
-    background-color: rgb(42, 42, 112);
-    font-size: 1.6rem;
+    background: linear-gradient(252.44deg, #2e2b2b 0%, #111111 100%);
+    border: 1px solid rgb(46, 45, 45);
+    border-radius: 7px;
+    box-shadow: 3px 3px 12px 0px rgb(71, 69, 69);
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    line-height: 3rem;
     padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.project-body {
+    background-color: bisque;
+    border-radius: 5px;
+    height: 36rem;
+    width: 47rem;
 }
 
 .projects-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     width: 100%;
-}
-
-.project-body {
-    background-color: bisque;
-    height: 35rem;
-    width: 45rem;
 }
 
 .projects-field {
