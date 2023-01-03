@@ -44,7 +44,15 @@
     margin-bottom: 3rem;
 }
 
-.project-body {
+.project-brands {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+
+}
+
+.project-card {
     background: linear-gradient(252.44deg, #2e2b2b 0%, #111111 100%);
     border-radius: 5px;
     box-shadow: 4px 3px 12px 0px rgb(71, 69, 69);
@@ -53,7 +61,7 @@
     position: relative;
 }
 
-.project-body:hover {
+.project-card:hover {
     cursor: pointer;
     box-shadow: 6px 4px 12px 0px rgb(128, 123, 123);
     top: -4px;
@@ -75,6 +83,10 @@
 }
 
 .text-project {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: column;
     padding: 0rem 2rem;
 }
 
@@ -83,11 +95,10 @@
     font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: 0.4rem;
-    margin: 1rem 0rem;
-    text-align: center;
+    margin-top: 1.5rem;
 }
 
-.text-project p {
+.text-project span {
     font-size: 1.5rem;
-
+    letter-spacing: 0.3rem;
 }
