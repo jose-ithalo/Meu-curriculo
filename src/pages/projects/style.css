@@ -45,7 +45,7 @@
 }
 
 .head-card {
-    height: 18%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@
     gap: 1.5rem;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
-    margin: 0rem auto;
+    margin: 2rem auto;
     padding: 0.5rem 2rem;
     width: 90%;
 }
