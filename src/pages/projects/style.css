@@ -23,6 +23,15 @@
     transform: scale(1.2);
 }
 
+.container-projects a {
+    color: #FFFf;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: fixed;
+    top: 5rem;
+    right: 3rem;
+}
+
 .container-projects h1 {
     background-color: rgb(42, 42, 112);
     border: 2px solid wheat;
@@ -81,7 +90,7 @@
 .modal-container {
     background: rgba(109, 105, 105, 0.478);
     height: 100vh;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
