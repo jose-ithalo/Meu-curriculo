@@ -71,9 +71,16 @@
     width: 75%;
 } */
 
-.img-project {
+#img-first {
     background-image: url('../../assets/imgProjects/Pokedex.png');
-    background-position: center;
+}
+
+#img-second {
+    background-image: url('../../assets/imgProjects/Cubos-Player.png');
+}
+
+.img-project {
+    background-position: center bottom;
     background-size: cover;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -186,7 +193,6 @@
 }
 
 .text-project h2 {
-    color: rgb(85, 85, 148);
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 0.4rem;
