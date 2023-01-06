@@ -1,12 +1,20 @@
 const firstCard = document.querySelector('#first');
-const modalContainer = document.querySelector('.modal-container');
+const secondCard = document.querySelector('#second');
 const firstModal = document.querySelector('#first-modal');
-const btnClose = document.querySelector('.btn-close');
+const secondModal = document.querySelector('#second-modal');
+const btnClose = document.querySelectorAll('.btn-close');
 
 firstCard.addEventListener('click', function () {
     firstModal.style.display = 'flex';
 })
 
-btnClose.addEventListener('click', function () {
-    modalContainer.style.display = 'none';
+secondCard.addEventListener('click', function () {
+    secondModal.style.display = 'flex';
+})
+
+btnClose.forEach(function (close) {
+    close.addEventListener('click', function () {
+        firstModal.style.display = 'none';
+        secondModal.style.display = 'none';
+    });
 })
