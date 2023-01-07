@@ -23,15 +23,6 @@
     transform: scale(1.2);
 }
 
-.link-home {
-    color: #FFFf;
-    font-size: 1.2rem;
-    font-weight: 700;
-    position: fixed;
-    top: 5rem;
-    right: 3rem;
-}
-
 .container-projects h1 {
     background-color: rgb(42, 42, 112);
     border: 2px solid wheat;
@@ -86,6 +77,15 @@
     border-top-right-radius: 5px;
     height: 65%;
     width: 100%;
+}
+
+.link-home {
+    color: #FFFf;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: fixed;
+    top: 5rem;
+    right: 3rem;
 }
 
 .link-modal {
@@ -205,7 +205,6 @@
 }
 
 .title-card {
-    color: rgb(85, 85, 148);
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 0.4rem;
