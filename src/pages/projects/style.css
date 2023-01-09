@@ -70,6 +70,10 @@
     background-image: url('../../assets/imgProjects/Cubos-Player.png');
 }
 
+#img-tird {
+    background-image: url('../../assets/imgProjects/Memory-Game.png');
+}
+
 .img-project {
     background-position: center bottom;
     background-size: cover;
