@@ -74,6 +74,10 @@
     background-image: url('../../assets/imgProjects/Memory-Game.png');
 }
 
+#img-fourth {
+    background-image: url('../../assets/imgProjects/Kontacts.png');
+}
+
 .img-project {
     background-position: center bottom;
     background-size: cover;
