@@ -51,17 +51,6 @@
     justify-content: center;
 }
 
-/* .img-modal {
-    background-image: url('../../assets/imgProjects/Pokedex.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    margin: 2rem auto;
-    height: 18rem;
-    width: 75%;
-} */
-
 #img-first {
     background-image: url('../../assets/imgProjects/Pokedex.png');
 }
