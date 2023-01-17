@@ -3,6 +3,12 @@
         display: none;
     }
 
+    .container-projects h1 {
+        padding: 8px;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
     .final-home-left {
         width: auto;
     }
@@ -43,6 +49,10 @@
     .skills-content__stacks :first-child {
         margin-right: 5rem;
     }
+
+    .text-project span {
+        line-height: 2rem;
+    }
 }
 
 @media (max-width:515px) {
@@ -71,6 +81,10 @@
     .informations {
         letter-spacing: 0.1rem;
         margin-left: 1.50rem;
+    }
+
+    .link-home {
+        display: none;
     }
 }
 
@@ -114,7 +128,6 @@
     }
 }
 
-
 @media (max-width: 790px) {
     .avatar-img {
         height: 17rem;
@@ -123,6 +136,10 @@
 
     .contact-field h3 {
         width: 10rem;
+    }
+
+    .container-projects {
+        padding: 0rem 7rem;
     }
 
     .final-home {
@@ -134,9 +151,14 @@
     .option-header {
         gap: 5rem;
     }
+
+    .project-card {
+        height: 45rem;
+    }
 }
 
 @media (max-width: 975px) {
+
     .my-info h2 {
         display: none;
     }
@@ -149,10 +171,26 @@
         font-size: 1.2rem;
     }
 
+    .projects-area {
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+
+    .project-card {
+        margin-bottom: 5rem;
+        width: auto;
+    }
+
     .skills-content {
         text-align: center;
     }
 
+}
+
+@media (min-width: 976px) and (max-width: 1115px) {
+    #img-tird {
+        background-position: center right -1.8rem;
+    }
 }
 
 @media (max-width: 1115px) {
@@ -170,17 +208,13 @@
         background-position: center left;
     }
 
-    #img-tird {
-        background-position: center right -1.8rem;
-    }
-
     .my-info {
         font-size: 1.2rem;
     }
 
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 976px) and (max-width: 1300px) {
 
     .container-projects {
         padding: 0rem 14rem;

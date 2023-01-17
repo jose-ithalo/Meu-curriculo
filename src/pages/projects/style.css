@@ -125,6 +125,14 @@
     margin-bottom: 3rem;
 }
 
+.projects-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    width: 100%;
+}
+
 .project-brands {
     color: white;
     display: flex;
@@ -146,14 +154,6 @@
     cursor: pointer;
     box-shadow: 6px 4px 12px 0px rgb(128, 123, 123);
     top: -4px;
-}
-
-.projects-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 6rem;
-    width: 100%;
 }
 
 .projects-field {
