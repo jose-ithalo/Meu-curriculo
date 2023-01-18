@@ -95,7 +95,7 @@
 .modal-container {
     background: rgba(109, 105, 105, 0.478);
     height: 100vh;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -110,6 +110,7 @@
     border-radius: 8px;
     height: 45rem;
     width: 60rem;
+    margin: 2rem;
     position: relative;
 }
 

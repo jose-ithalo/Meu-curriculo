@@ -46,6 +46,11 @@
         justify-content: center;
     }
 
+    .modal-card {
+        height: auto;
+        padding: 2rem;
+    }
+
     .skills-content__stacks :first-child {
         margin-right: 5rem;
     }
@@ -121,6 +126,10 @@
 
     .skills-content p {
         padding: 0rem;
+    }
+
+    .tecnologies-area span {
+        text-align: center;
     }
 
     .title-name {
