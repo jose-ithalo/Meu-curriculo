@@ -1,3 +1,22 @@
+@media (max-width: 300px) {
+
+    .container-projects {
+        display: none;
+    }
+
+    .tiny-screen-project {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .tiny-screen-project img {
+        width: 20rem;
+    }
+}
+
 @media (max-width: 400px) {
     .container {
         display: none;
@@ -11,6 +30,14 @@
 
     .final-home-left {
         width: auto;
+    }
+
+    .tecnologies {
+        font-size: 1.5rem;
+    }
+
+    .tecnologies-area span {
+        font-size: 1rem;
     }
 
     .tiny-screen {
@@ -44,11 +71,6 @@
 
     main {
         justify-content: center;
-    }
-
-    .modal-card {
-        height: auto;
-        padding: 2rem;
     }
 
     .skills-content__stacks :first-child {
@@ -96,6 +118,11 @@
 @media (max-width: 600px) {
     .container-home header {
         width: 95%;
+    }
+
+    .modal-card {
+        height: auto;
+        padding: 2rem;
     }
 }
 
