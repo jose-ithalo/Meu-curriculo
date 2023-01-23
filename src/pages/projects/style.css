@@ -168,6 +168,7 @@
 .tecnologies {
     font-size: 2rem;
     font-weight: 700;
+    margin-left: 1.5rem;
 }
 
 .tecnologies-area {
@@ -175,7 +176,6 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
     margin: 2rem auto;
