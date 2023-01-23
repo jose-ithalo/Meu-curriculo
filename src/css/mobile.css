@@ -49,6 +49,20 @@
     }
 }
 
+@media (max-height: 467px) {
+    .title-card {
+        font-size: 2rem;
+    }
+
+    .desc-field {
+        font-size: 1.5rem;
+    }
+
+    .tecnologies-area {
+        margin: 0rem auto;
+    }
+}
+
 @media (max-width: 490px) {
 
     .avatar-cartoon,
