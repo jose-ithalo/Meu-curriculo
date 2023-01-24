@@ -49,36 +49,6 @@
     }
 }
 
-@media (max-height: 570px) {
-
-    .desc-field {
-        max-height: 28rem;
-        overflow-y: scroll;
-    }
-
-    .menu-close {
-        left: 1rem;
-        top: 1.5rem;
-        width: 3rem;
-    }
-
-    .project-brands {
-        font-size: 2rem;
-    }
-
-    .tecnologies-area {
-        margin: 0rem auto;
-    }
-
-    .text-project span {
-        text-align: center;
-    }
-
-    .title-card {
-        font-size: 2rem;
-    }
-}
-
 @media (max-width: 490px) {
 
     .avatar-cartoon,
@@ -142,6 +112,38 @@
 
     .link-home {
         display: none;
+    }
+}
+
+@media (max-height: 570px) {
+
+    .desc-field {
+        max-height: 28rem;
+        overflow-y: scroll;
+    }
+
+    .menu-close {
+        left: 1rem;
+        top: 1.5rem;
+        width: 3rem;
+    }
+
+    .project-brands {
+        font-size: 2rem;
+    }
+
+    .tecnologies-area {
+        margin: 0rem auto;
+    }
+
+    .text-project span {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        text-align: center;
+    }
+
+    .title-card {
+        font-size: 2rem;
     }
 }
 
