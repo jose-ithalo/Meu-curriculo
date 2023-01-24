@@ -56,8 +56,22 @@
         overflow-y: scroll;
     }
 
+    .menu-close {
+        left: 1rem;
+        top: 1.5rem;
+        width: 3rem;
+    }
+
+    .project-brands {
+        font-size: 2rem;
+    }
+
     .tecnologies-area {
         margin: 0rem auto;
+    }
+
+    .text-project span {
+        text-align: center;
     }
 
     .title-card {
