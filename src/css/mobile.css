@@ -50,16 +50,18 @@
 }
 
 @media (max-height: 570px) {
-    .title-card {
-        font-size: 2rem;
-    }
 
     .desc-field {
-        font-size: 1.5rem;
+        max-height: 28rem;
+        overflow-y: scroll;
     }
 
     .tecnologies-area {
         margin: 0rem auto;
+    }
+
+    .title-card {
+        font-size: 2rem;
     }
 }
 
