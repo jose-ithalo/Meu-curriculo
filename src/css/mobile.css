@@ -32,6 +32,10 @@
         width: auto;
     }
 
+    .projects-area {
+        width: calc(100vw - 35px);
+    }
+
     .tecnologies {
         font-size: 1.5rem;
     }
