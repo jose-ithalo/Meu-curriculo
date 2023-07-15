@@ -32,8 +32,8 @@
 }
 
 .ellipse {
+    animation: motionElement 2s infinite alternate;
     position: absolute;
-    right: 0.60rem;
 }
 
 .final-home {
@@ -75,10 +75,13 @@ li {
 }
 
 header img {
+    animation-name: lighting;
+    animation-duration: 2s;
     width: 15rem;
     position: relative;
     top: -30px;
     left: 20px;
+    opacity: 1;
 }
 
 .img-area {
