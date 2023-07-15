@@ -1,0 +1,33 @@
+@keyframes growElement {
+    0% {
+        transform: scale(0.1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lighting {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes motionElement {
+    from {
+        left: 0rem;
+    }
+
+    to {
+        left: 90%;
+    }
+}
