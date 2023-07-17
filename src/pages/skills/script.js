@@ -4,8 +4,8 @@ const stackImage = document.querySelector('.stack-img');
 const stackName = document.querySelector('.modal-badges h2')
 
 const backList = [
-    { image: '../../assets/stacks/nodejs.png', name: 'Node.Js' },
-    { image: '../../assets/stacks/express.png', name: 'Express.Js' },
+    { image: '../../assets/stacks/nodejs.png', name: 'Node.js' },
+    { image: '../../assets/stacks/express.png', name: 'Express.js' },
     { image: '../../assets/stacks/api.png', name: 'API REST' },
     { image: '../../assets/stacks/sql.png', name: 'SQL' },
     { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' }
@@ -26,7 +26,6 @@ let listName = 'back';
 
 stackImage.src = backList[0].image;
 stackName.textContent = backList[0].name;
-
 
 backEnd.addEventListener('click', function () {
     backEnd.classList.remove('non-selected-stack');
