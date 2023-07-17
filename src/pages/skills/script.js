@@ -5,15 +5,17 @@ const stackName = document.querySelector('.modal-badges h2')
 
 const backList = [
     { image: '../../assets/stacks/nodejs.png', name: 'Node.Js' },
-    { image: '../../assets/stacks/express.png', name: 'Express' },
+    { image: '../../assets/stacks/express.png', name: 'Express.Js' },
+    { image: '../../assets/stacks/api.png', name: 'API REST' },
     { image: '../../assets/stacks/sql.png', name: 'SQL' },
-    { image: '../../assets/stacks/python.png', name: 'Python' }
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' }
 ];
 
 const frontList = [
-    { image: '../../assets/stacks/html5.png', name: 'HTML' },
-    { image: '../../assets/stacks/css3.png', name: 'CSS3' },
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg', name: 'HTML' },
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg', name: 'CSS3' },
     { image: '../../assets/stacks/javaScript.png', name: 'JavaScript' },
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' },
     { image: '../../assets/stacks/react.png', name: 'React.js' }
 ];
 
