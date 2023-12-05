@@ -224,3 +224,8 @@
     display: none;
     font-size: 1.5rem;
 }
+
+.typeIcon {
+    margin: 0 7px;
+    width: 25px;
+}
