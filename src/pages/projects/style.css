@@ -74,6 +74,11 @@
     background-image: url('../../assets/imgProjects/Kontacts.png');
 }
 
+#img-fifth {
+    background-image: url('../../assets/imgProjects/moments2.png');
+    background-position: top;
+}
+
 .img-project {
     background-position: center bottom;
     background-size: cover;
