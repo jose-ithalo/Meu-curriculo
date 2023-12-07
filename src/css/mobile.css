@@ -162,6 +162,7 @@
         height: auto;
         padding: 2rem;
     }
+
 }
 
 @media (max-width: 715px) {
@@ -192,6 +193,21 @@
 
     .mobile-menu {
         display: block;
+    }
+
+    .modal-video {
+        top: 10rem;
+
+        height: fit-content;
+        width: 95%;
+    }
+
+    .modal-video img {
+        top: -30px;
+    }
+
+    .project-video {
+        width: 100%;
     }
 
     .skills-content p {
