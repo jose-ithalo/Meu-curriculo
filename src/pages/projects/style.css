@@ -80,6 +80,11 @@
     background-position: top;
 }
 
+#img-sixth {
+    background-image: url('../../assets/imgProjects/Clima-Tempo.png');
+    background-position: center;
+}
+
 .img-project {
     background-position: center bottom;
     background-size: cover;
