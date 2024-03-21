@@ -3,11 +3,13 @@ const secondCard = document.querySelector('#second');
 const tirdCard = document.querySelector('#tird');
 const fourthCard = document.querySelector('#fourth');
 const fifthCard = document.querySelector('#fifth');
+const sixthCard = document.querySelector('#sixth');
 const firstModal = document.querySelector('#first-modal');
 const secondModal = document.querySelector('#second-modal');
 const tirdModal = document.querySelector('#tird-modal');
 const fourthModal = document.querySelector('#fourth-modal');
 const fifthModal = document.querySelector('#fifth-modal');
+const sixthModal = document.querySelector('#sixth-modal');
 const linkVideo = document.querySelector('.link-video span');
 const modalCard = document.querySelector('#modal-moments');
 const modalVideo = document.querySelector('.modal-video');
@@ -33,6 +35,10 @@ fifthCard.addEventListener('click', function () {
     fifthModal.style.display = 'flex';
 })
 
+sixthCard.addEventListener('click', function () {
+    sixthModal.style.display = 'flex';
+})
+
 linkVideo.addEventListener('click', function () {
     modalVideo.style.display = 'flex';
     modalCard.style.display = 'none';
@@ -46,6 +52,7 @@ btnClose.forEach(function (close) {
         tirdModal.style.display = 'none';
         fourthModal.style.display = 'none';
         fifthModal.style.display = 'none';
+        sixthModal.style.display = 'none';
         modalCard.style.display = 'block';
         modalVideo.style.display = 'none';
     });
