@@ -270,3 +270,9 @@
     margin: 0 7px;
     width: 25px;
 }
+
+@media (min-width: 1500px) {
+    .projects-area {
+        justify-content: space-around;
+    }
+}
