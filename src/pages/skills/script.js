@@ -17,7 +17,8 @@ const frontList = [
     { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg', name: 'CSS3' },
     { image: '../../assets/stacks/javaScript.png', name: 'JavaScript' },
     { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' },
-    { image: '../../assets/stacks/react.png', name: 'React.js' }
+    { image: '../../assets/stacks/react.png', name: 'React.js' },
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg', name: 'Angular' }
 ];
 
 const next = document.querySelector('.next-arrow');
