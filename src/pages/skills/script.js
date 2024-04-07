@@ -8,7 +8,8 @@ const backList = [
     { image: '../../assets/stacks/express.png', name: 'Express.js' },
     { image: '../../assets/stacks/api.png', name: 'API REST' },
     { image: '../../assets/stacks/sql.png', name: 'SQL' },
-    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' }
+    { image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', name: 'TypeScript' },
+    { image: 'https://nestjs.com/img/logo-small.svg', name: 'NestJS' }
 ];
 
 const frontList = [
